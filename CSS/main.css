@@ -12,6 +12,10 @@ body{
     margin: 0;
 }
 
+#backgroundImageMain {
+    width: 100%;
+}
+
 /*Barre en haut de navigation*/
 
 .container{
