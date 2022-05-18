@@ -12,8 +12,8 @@ body{
     margin: 0;
 }
 
-#backgroundImageMain {
-    width: 100%;
+#ip {
+    background-image: url(background-header.png);
 }
 
 /*Barre en haut de navigation*/
