@@ -27,11 +27,22 @@ document.write('<code html pour ordi>');
 }
 
 
+
+
 let editor = document.querySelector('.ip');
 let button = document.querySelector('.header-btn me-3');
 
 button.addEventListener('click', () => {
     editor.select();
-    navigator.clipboard.writeText(editor.value);
+    navigator.innerText.writeText(editor.value);
     button.innerText = "Copié !";
+})
+
+
+const btnCopy = document.querySelector('.btn-copy')
+const txtCopy = document.querySelector('.box-copy')
+const txt = "soon..."
+
+btnCopy.addEventListener('click', () => {
+    navigator.clipboard.writeText(txtCopy.innerText);
 })
