@@ -41,7 +41,8 @@ button.addEventListener('click', () => {
 
 const btnCopy = document.querySelector('.btn-copy')
 const txtCopy = document.querySelector('.box-copy')
+const txt = "soon..."
 
 btnCopy.addEventListener('click', () => {
-    navigator.clipboard.writeText(txtCopy.innerText);
+    navigator.clipboard.writeText(txt);
 })
