@@ -39,10 +39,9 @@ button.addEventListener('click', () => {
 })
 
 
-const btnCopy = document.querySelector('.btn-copy')
-const txtCopy = document.querySelector('.box-copy')
-const txt = "soon..."
+function copyToClipBoard() {
 
-btnCopy.addEventListener('click', () => {
-    navigator.clipboard.writeText(txt);
-})
+    var content = document.getElementById('textArea');
+    
+    content.select();
+    document.execCommand('copy');
