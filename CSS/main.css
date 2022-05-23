@@ -257,6 +257,11 @@ footer .colonnes {
     margin-right: 0px;
     justify-content: space-between;
 }
+
+footer .colonnes .footer-logo{
+    background: url("icon.ico") no-repeat center/100% auto;
+}
+
 .lien_footer {
     color: #828282;
 }
