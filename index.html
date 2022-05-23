@@ -6,6 +6,17 @@
         <title>Lenoria | Accueil</title>
         <link rel="stylesheet" href="../css/main.css">
         <script src="https://kit.fontawesome.com/9ab044b390.js" crossorigin="anonymous"></script>
+        <script>
+
+
+            $("#link").click(function(){
+              var holdtext = $("#clipboard").innerText;
+              Copied = holdtext.createTextRange();
+              Copied.execCommand("Copy");
+            });
+            
+            
+            </script>
     </head>
     <body>
         <div class="menu">
@@ -52,16 +63,8 @@
     <img src="../background-header.png" class="background-header" id="background-header">
 </div>
 
+<button onclick="copyToClipboard()">Copy Text</button>
 
-
-
-
-
-
-
-
-
-        <script src="main.js"></script>
 
         <footer>
             <h5>Des questions ? Allez sur le Discord et ouvrez un ticket</h5>
