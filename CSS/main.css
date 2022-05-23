@@ -258,7 +258,7 @@ footer .colonnes {
     justify-content: space-between;
 }
 
-footer .colonnes .footer-logo{
+footer .colonnes .footer-logo .logo{
     position: absolute;
     left: 0;
     right: 0;
