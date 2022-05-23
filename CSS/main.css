@@ -259,6 +259,14 @@ footer .colonnes {
 }
 
 footer .colonnes .footer-logo{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: 0 auto;
+    width: 50%;
+    height: 35%;
+    max-width: 90%;
     background: url("icon.ico") no-repeat center/100% auto;
 }
 
