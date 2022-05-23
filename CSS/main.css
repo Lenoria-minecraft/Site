@@ -259,14 +259,11 @@ footer .colonnes {
 }
 
 footer .colonnes .footer-logo .logo{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 40%;
-    margin: 0 auto;
-    width: 50%;
-    height: 35%;
-    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    justify-content: space-between;
     background: url("icon.ico") no-repeat center/100% auto;
 }
 
