@@ -52,8 +52,25 @@
             </div>
         </div>
 
-        <button onclick="copyToClipBoard('Ce texte a été copié')">Copier l'ip</button>
+        <button name="button" type="button" onclick="copyToClipBoard('texte copié');">Copier l'ip</button>
+        
+        <script>
+            function copyToClipBoard(content) {
 
+                content.select();
+                document.execCommand('copy');
+
+                alert("Copied!");
+            }
+        </script>
+        
+        <button name="button" value="OK" type="button" onclick="bjr()">Cliquez ici</button>  
+<script>  
+function bjr(){  
+alert("Bonjour w3tutoriels");  
+}  
+</script>
+dbrgr
 
 <div class="background-header">
     <img src="../background-header.png" class="background-header" id="background-header">
