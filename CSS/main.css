@@ -12,6 +12,9 @@ body{
     margin: 0;
 }
 
+.index-fond{
+    background-image: "../background-header.png";
+}
 
 /*Barre en haut de navigation*/
 
