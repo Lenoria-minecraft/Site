@@ -142,61 +142,6 @@ body{
     outline: none;
 }
 
-
-
-.container {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    padding: 0 8%;
-    background: #24252A;
-    background-size: cover;
-    border-radius: 50px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5px 0;
-}
-
-nav .logo {
-    width: 120px;
-    cursor: pointer;
-    font-size: 2.5rem;
-    font-style: oblique;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-}
-
-nav .logo:hover {
-    color: #FDCD2D;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 1;
-    padding-left: 40px;
-    text-align: right;
-    list-style-type: none;
-}
-
-nav ul li a {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-}
-
-nav ul li a:hover {
-    color: #FDCD2D;
-}
-
 button.btn {
     padding: 10px 20px;
     font-size: 1.2rem;
