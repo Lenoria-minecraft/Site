@@ -313,3 +313,43 @@ form {
     box-shadow: 3px 5px 15px #FDCD2D;
     transform: translateY(-5px);
 }
+
+footer {
+    background-color: #1a1a1a;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px 10px;
+    color: #828282;
+    margin-top: 100px;
+}
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    justify-content: space-between;
+}
+
+footer .colonnes .footer-logo .logo{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    justify-content: space-between;
+    background: url("icon.ico") no-repeat center/100% auto;
+}
+
+.lien_footer {
+    color: #828282;
+}
+
+.text_footer {
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.text_footer:hover {
+    color: #828282;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
