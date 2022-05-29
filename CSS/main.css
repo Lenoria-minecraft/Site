@@ -13,7 +13,7 @@ body{
 }
 
 .index-fond{
-    background-image: "../background-header.png";
+    background: url("../background-header.png");
 }
 
 /*Barre en haut de navigation*/
