@@ -6,14 +6,7 @@
         <title>Lenoria | Accueil</title>
         <link rel="stylesheet" href="../css/main.css">
         <script src="https://kit.fontawesome.com/9ab044b390.js" crossorigin="anonymous">
-            function copyToClipBoard(content) {
-
-                content.select();
-                document.execCommand('copy');
-
-                alert("Copied!");
-            }
-
+            
         </script>
         
     </head>
@@ -56,6 +49,16 @@
         </div>
 
         <button name="button" type="button" onclick="copyToClipBoard('texte copié');">Copier l'ip</button>
+        
+        <script>
+            function copyToClipBoard(content) {
+
+                content.select();
+                document.execCommand('copy');
+
+                alert("Copied!");
+            }
+        </script>
         
         <button name="button" value="OK" type="button" onclick="bjr()">Cliquez ici</button>  
 <script>  
